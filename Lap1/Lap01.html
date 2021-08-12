@@ -8,7 +8,8 @@
     <title>The Basic Language of the Web: HTML</title>
 </head>
 <body>
-    <header>
+   <div class="container">
+    <header class="main-header">
         <h1>📘 The Code Lean</h1>
         <nav>
             <a href="./blog.html">Blog</a>
@@ -19,10 +20,10 @@
     </header>
 
     <article>
-        <header>
+        <header class="post-header">
             <h2>The Basic Language of the Web: HTML</h2>
             <img style="height: 50; width: 50;" src="./image/laura-jones.jpg" alt="laura-jones">
-            <p>Posted by<strong> Dang Kim Thi</strong> on Monday, June 21st 2027</p>
+            <p class="author">Posted by<strong> Dang Kim Thi</strong> on Monday, June 21st 2027</p>
             <img style="height: 200; width: 500;" src="./image/post-img.jpg" alt="post-img">
         </header>
         <p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
@@ -52,14 +53,15 @@
     </article>
     <aside>
         <h4>Related posts</h4>
-        <ul>
-            <li><a href="#"><img style="height: 75px; width: 75px;" src="./image/related-1.jpg" alt="">How to learn Web Development</a><p>By Jonas Schmedtmann</p></li>
-            <li><a href="#"><img style="height: 75px; width: 75px;" src="./image/related-2.jpg" alt="">The Unknown Powers of CSS</a><p>By Jim Dillon</p></li>
-            <li><a href="#"><img style="height: 75px; width: 75px;" src="./image/related-3.jpg" alt="">Why JavaScript is Awesome</a><p>By Matikla</p></li>
+        <ul class="related">
+            <li><a href="#"><img style="height: 75px; width: 75px;" src="./image/related-1.jpg" alt="">How to learn Web Development</a><p class="related-author">By Jonas Schmedtmann</p></li>
+            <li><a href="#"><img style="height: 75px; width: 75px;" src="./image/related-2.jpg" alt="">The Unknown Powers of CSS</a><p class="related-author">By Jim Dillon</p></li>
+            <li><a href="#"><img style="height: 75px; width: 75px;" src="./image/related-3.jpg" alt="">Why JavaScript is Awesome</a><p class="related-author">By Matikla</p></li>
         </ul>
     </aside>
    <footer>
-        <p>Copyright @ 2027 by The Code Lean.</p>   
+        <p class="copyright">Copyright @ 2027 by The Code Lean.</p>   
    </footer>
+   </div>
 </body>
 </html>
